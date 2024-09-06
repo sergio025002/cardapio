@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css" />
+    <link rel="stylesheet" href="./styles/output.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>SJM Savory</title>
+</head>
+
+<body>
+    <label id="hamburger">
+        <input type="checkbox" class="imput">
+        <div class="toggle">
+            <span class="top_line common"></span>
+            <span class="middle_line common"></span>
+            <span class="bottom_line common"></span>
+        </div>
+        <div class="slide">
+            <h3>Menu</h3>
+            <ul>
+                <li>
+                    <a href="index.html"><i class="fa-solid fa-house"></i>Inicio</a>
+                </li>
+                <li>
+                    <a href="localizacao/localizacao.html"><i class="fa-solid fa-location-dot"></i>Localização</a>
+                </li>
+                <li>
+                    <a href="telefone/telefone.html"><i class="fa-solid fa-phone-volume"></i>Contato</a>
+                </li>
+                <li>
+                    <a href="avaliacao/avaliacao.html"><i class="fa-regular fa-star"></i></i>Avalie-nos</a>
+                </li>
+                <li>
+                    <a href="sobrenos/sobrenos.html"><i class="fa-solid fa-people-group "></i></i>Sobre nós</a>
+                </li>
+            </ul>
+
+        </div>
+    </label>
+    <!--header-->
+    <header class="w-full h-[420px] bg-zinc-900 bg-home bg-cover bg-center">
+        <div class="w-full h-full flex flex-col justify-center items-center">
+            <div class="w-full h-full flex flex-col justify-center items-center">
+                <img src="img/S (1) (1).png" alt="logo" class="w-32 h-32 rounded-full shadow-lg hover:scale-110 duration-200">
+
+                <h1 class="text-4xl mt-3 mb-2 font-bold text-red-600">SJM Savory</h1>
+
+                <span class="font-medium text-teal-500">Rua fortaleza Nº 55, agua bela, casa 275B</span>
+
+                <div class="bg-green-600 px-4 py-1 rounded-lg mt-5" id="date-spam">
+                    <span class="text-white font-medium">Seg á Dom 11:00 as 23:00</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--header-->
+
+    <h2 class="text-3xl md:text-5x1 font-bold text-center mt-11 mb-8">Cardapio</h2>
+    <!--Menu-->
+    <div id="menu">
+
+        <main class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16">
+
+            <div class="flex gap-2">
+                <img src="img/cardapio1.jpg" alt="1"
+                    class="w-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300 sombra">
+                <div>
+                    <p class="font-bold">pastel simples</p>
+                    <p class="text-sm">Um pastel simples é uma delícia crocante, feito com uma massa fina e frita até
+                        ficar dourada.
+                        Recheado com opções clássicas como carne moída temperada ou queijo derretido, é um lanche
+                        tradicional que combina simplicidade e sabor, perfeito para qualquer hora do dia.</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$10.00</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="pastel simples"
+                            data-price="10.00">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="img/cardapio2.jpg" alt="1"
+                    class="w-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300 sombra">
+                <div>
+                    <p class="font-bold">pastel de carne</p>
+                    <p class="text-sm">O pastel de carne é uma iguaria tradicional, com uma massa crocante e dourada,
+                        recheada com carne moída suculenta e temperada com alho, cebola e especiarias. Cada mordida
+                        oferece uma explosão de sabor, combinando a textura leve da massa com o sabor rico do recheio.
+                    </p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$10.00</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="pastel de carne"
+                            data-price="10.00">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="img/cardapio3.jpg" alt="1"
+                    class="w-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300 sombra">
+                <div>
+                    <p class="font-bold">pastel de frango</p>
+                    <p class="text-sm">O pastel de frango é uma combinação deliciosa de massa crocante e um recheio
+                        suculento de frango desfiado, temperado com ervas e especiarias. A cada mordida, você sente a
+                        leveza da massa dourada e o sabor irresistível do frango bem temperado.
+                    </p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$10.00</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="pastel de frango"
+                            data-price="10.00">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="img/cardapio4.jpg" alt="1"
+                    class="w-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300 sombra">
+                <div>
+                    <p class="font-bold">pastel de pizza</p>
+                    <p class="text-sm">O pastel de pizza é uma explosão de sabores, com uma massa crocante e recheio
+                        generoso de queijo derretido, tomate e orégano, combinados com presunto ou pepperoni. Cada
+                        mordida lembra o sabor autêntico de uma pizza clássica, envolta em uma casquinha dourada e
+                        deliciosa.
+                    </p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$10.00</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="pastel de pizza"
+                            data-price="10.00">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="img/cardapio5.jpg" alt="1"
+                    class="w-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300 sombra">
+                <div>
+                    <p class="font-bold">pastel de frango e queijo</p>
+                    <p class="text-sm">O pastel de frango e queijo combina a suculência do frango desfiado com a
+                        cremosidade do queijo derretido, tudo envolto em uma massa crocante e dourada. A fusão perfeita
+                        de sabores e texturas faz desse pastel uma escolha irresistível para quem busca um lanche
+                        saboroso e reconfortante.
+                    </p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$10.00</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="pastel de frango e queijo"
+                            data-price="10.00">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2">
+                <img src="img/cardapio6.jpg" alt="1"
+                    class="w-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300 sombra">
+                <div>
+                    <p class="font-bold">pastel de chocolate</p>
+                    <p class="text-sm">O pastel de chocolate é uma tentação doce, com uma massa crocante que revela um
+                        recheio cremoso e derretido de chocolate. Perfeito para os amantes de sobremesas, cada mordida
+                        oferece uma explosão de sabor doce e intenso, envolto em uma casquinha dourada.
+                    </p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$10.00</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="pastel de chocolate"
+                            data-price="10.00">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+
+        <!--Bebidas-->
+        <div>
+            <h2 class="text-3xl md:text-5x1 font-bold text-center mt-11 mb-8">Bebidas</h2>
+        </div>
+        <div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16" id="menu">
+
+                <div class="flex gap-2">
+                    <img src="img/bebida1.jpg" alt="1"
+                        class="w-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300 sombra">
+                    <div>
+                        <p class="font-bold">Sprite</p>
+                        <p class="text-sm">O Sprite é um refrigerante refrescante e leve, conhecido por seu sabor
+                            cítrico e
+                            borbulhante. Combinando limão e lima, é uma bebida perfeita para matar a sede e proporcionar
+                            uma
+                            sensação de frescor a qualquer momento do dia.
+                        </p>
+
+                        <div class="flex items-center gap-2 justify-between mt-3">
+                            <p class="font-bold text-lg">R$8.00</p>
+                            <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Sprite"
+                                data-price="8.00">
+                                <i class="fa fa-cart-plus text-lg text-white"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex gap-2">
+                    <img src="img/bebida2.jpg" alt="1"
+                        class="w-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300 sombra">
+                    <div>
+                        <p class="font-bold">Fanta naranja</p>
+                        <p class="text-sm">A Fanta de Laranja é um refrigerante vibrante e refrescante, com um sabor
+                            cítrico
+                            e
+                            adocicado de laranja. Suas bolhas efervescentes e o aroma frutado fazem dela uma escolha
+                            popular
+                            para quem busca uma bebida deliciosa e revigorante.
+                        </p>
+
+                        <div class="flex items-center gap-2 justify-between mt-3">
+                            <p class="font-bold text-lg">R$8.50</p>
+                            <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Fanta naranja"
+                                data-price="8.50">
+                                <i class="fa fa-cart-plus text-lg text-white"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="flex gap-2">
+                    <img src="img/bebida4.jpg" alt="1"
+                        class="w-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300 sombra">
+                    <div>
+                        <p class="font-bold">Fanta uva</p>
+                        <p class="text-sm">A Fanta de Uva é um refrigerante saboroso e marcante, com o gosto doce e
+                            frutado
+                            da
+                            uva. Suas bolhas refrescantes e o aroma intenso proporcionam uma experiência revigorante e
+                            cheia
+                            de
+                            sabor, perfeita para qualquer ocasião.
+                        </p>
+
+                        <div class="flex items-center gap-2 justify-between mt-3">
+                            <p class="font-bold text-lg">R$8.40</p>
+                            <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Fanta uva"
+                                data-price="8.40">
+                                <i class="fa fa-cart-plus text-lg text-white"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex gap-2">
+                    <img src="img/bebida3.jpg" alt="1"
+                        class="w-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300 sombra">
+                    <div>
+                        <p class="font-bold">Pepsi</p>
+                        <p class="text-sm">A Pepsi é um refrigerante icônico, com um sabor suave e levemente adocicado
+                            que
+                            combina notas de caramelo e uma leve efervescência. É uma bebida refrescante e versátil,
+                            ideal
+                            para acompanhar refeições ou ser apreciada sozinha em qualquer momento do dia.
+                        </p>
+
+                        <div class="flex items-center gap-2 justify-between mt-3">
+                            <p class="font-bold text-lg">R$8.60</p>
+                            <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Pepsi"
+                                data-price=" 8.60">
+                                <i class="fa fa-cart-plus text-lg text-white"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Menu-->
+
+        <!--Meu carrinho-->
+        <div class="bg-black/60 w-full h-full fixed top-0 left-0 z-[90] items-center justify-center hidden"
+            id="cart-modal">
+            <div class="bg-white ps-5 rounded-md min-w-[90%] md:min-w-[600px] scroll-container">
+                <h2 class="text-center font-bold text-2xl mb-2 mt-2">Meu carrinho</h2>
+                <div class="flex justify-between mb-2 mt-2 flex-col" id="cart-items"></div>
+                <p class="font-bold">Total: <span id="cart-total">0.00</span></p>
+                <p class="font-bold mt-3 mb-4">Endereço de entrega</p>
+                <input type="text" placeholder="Digite seu Endereço completo...."
+                    class="w-full border-2 p-1 rounded my-1" id="address">
+                <p class="text-red-500 hidden" id="address-warn">Digite seu Endereço completo</p>
+                <!-- Botões -->
+                <div class="flex items-center justify-between mt-5 mb-4 w-full">
+                    <button id="close-modal-btn" class="bg-red-500 text-white px-4 py-1 rounded">Fechar</button>
+                    <button id="checkout-btn" class="bg-green-500 text-white px-4 py-1 rounded">Finalizar
+                        pedido</button>
+                </div>
+            </div>
+        </div>
+
+        <!--Meu carrinho-->
+
+        <!--button carrinho-->
+        <footer class="w-full bg-red-500 py-2 fixed bottom-0 z-40 flex items-center justify-center">
+            <button class="flex items-center pag-2 text-white font-bold" id="cart-btn">
+                (<span id="cart-count">0</span>)
+                Veja seu carrinho
+                <i class="fa fa-cart-plus text-lg text-white"></i>
+            </button>
+        </footer>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>/.
+        <script src="script.js"></script>
+</body>
+
+</html>

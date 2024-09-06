@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #333;
+    background-color: #a9cce3 ;
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    background-color: #5499c7;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+.location-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #a9cce3;
+}
+
+.location-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #1b4f72;
+}
+
+.map-container {
+    margin-bottom: 30px;
+    border: 5px solid #5499c7;
+    display: inline-block;
+}
+
+.address-container {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.address-container h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #5499c7;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #5499c7;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
